@@ -1,0 +1,104 @@
+
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reporte de Monitoreo de Aguacate - 2024-12-06</title>
+        <style>
+            body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 20px; background-color: #f4f4f4; }
+            .container { max-width: 900px; margin: 20px auto; background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+            h1, h2 { color: #2c3e50; border-bottom: 2px solid #e0e0e0; padding-bottom: 10px; margin-top: 30px; }
+            h1 { text-align: center; color: #28a745; }
+            .section { margin-bottom: 25px; }
+            table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+            th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+            th { background-color: #f8f8f8; font-weight: bold; color: #555; }
+            .summary-box { background-color: #e9f7ef; border-left: 5px solid #28a745; padding: 15px; margin-top: 20px; border-radius: 5px; }
+            .warning { color: #dc3545; font-weight: bold; }
+            .info { color: #007bff; }
+            .prediction-box { background-color: #e0f7fa; border-left: 5px solid #007bff; padding: 15px; margin-top: 20px; border-radius: 5px; }
+            .footer { text-align: center; margin-top: 40px; font-size: 0.9em; color: #777; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Reporte Diario de Monitoreo de Aguacate</h1>
+            <p style="text-align: center; font-size: 1.1em; color: #555;">Fecha del reporte: <strong>2024-12-06</strong></p>
+
+            <hr>
+
+            <div class="section">
+                <h2>Sistema de Alarmas</h2>
+                <div class="summary-box">
+                    <p><strong>Resumen:</strong> Se detectaron valores fuera de rango.</p>
+                </div>
+
+                <h3>Valores fuera de rango</h3>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Variable</th>
+                            <th>N° Registros fuera</th>
+                            <th>Advertencias</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+        
+                        <tr>
+                            <td>moisture_top</td>
+                            <td>48</td>
+                            <td class="warning">Riesgo de enfermedades y asfixia radicular.</td>
+                        </tr>
+            
+                        <tr>
+                            <td>moisture_medium</td>
+                            <td>48</td>
+                            <td class="warning">Riesgo de enfermedades y asfixia radicular.</td>
+                        </tr>
+            
+                    </tbody>
+                </table>
+        
+                <h3>Valores atípicos</h3>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Variable</th>
+                            <th>N° Valores atípicos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            
+                        <tr>
+                            <td>temperature_medium</td>
+                            <td>11</td>
+                        </tr>
+                
+                    </tbody>
+                </table>
+            
+            </div>
+
+            <hr>
+
+            <div class="section">
+                <h2>Predicciones para el Día Siguiente</h2>
+                <div class="prediction-box">
+                    <p>Fecha de predicción: <strong>2024-12-07</strong></p>
+                    <ul>
+                        <li><strong>Humedad a 20cm (VWC-20cm):</strong> 46.98 %</li>
+                        <li><strong>Conductividad a 20cm (EC(dS/m)-20cm):</strong> 0.73 dS/m</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p>&copy; 2025 Sistema de Monitoreo de Cultivos. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </body>
+    </html>
+    
